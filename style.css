@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+body{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    min-width: 100px;
+    min-height: 1000px;
+    background:#fff;
+    padding: 20px;
+    margin: 70px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.2) ;
+}
+
+.container .left{
+    position:relative;
+    background:#ff857e;
+    padding: 40px;
+}
+
+.container .right{
+    position:relative;
+    background: lightgray;
+    padding: 100px;
+
+}
+
+.profiletext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+
+.profiletext .profileImg{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profiletext h2{
+    color:#fff;
+    font-size: 1.5em;
+    margin-top: 20%;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profiletext h2 span{
+  font-size: 0,7em;
+  font-weight: 300;
+}
+
+h3 .title{
+  font-color:#fff;
+}
+
+.info {
+    padding: 40px;
+    font-color:#fff;
+}
+
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0,4px;
+    margin-bottom: 20px;
+}
+
+.info ul li h5{
+    color: #fff;
+}
+
+.info ul{
+    position: relative;
+}
+
+.info ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.info ul{
+    color: #fff;
+}
+
+.right{
+    color: white;
+}
+
+.right h1{
+    margin-bottom: 20px;
+}
+
+.right ul li h2{
+    position: relative;
+}
+
+.hoby {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.PENGALAMAN{
+    margin-bottom: 40PX;
+}
+
+.KEAHLIAN{
+    margin-top: 40PX;
+}
+
+.title{
+color: white;
+}
